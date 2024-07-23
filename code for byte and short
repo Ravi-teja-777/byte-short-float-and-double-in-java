@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Ravi{
+    static void mine(){
+        byte n=-128;
+        byte n1= 127;
+        short n2 =-32768;
+        short n3 =32767;
+        float n4 = 3.14f;
+        double n5 = 5.65d;
+        System.out.println(n);
+        System.out.println(n1);
+        System.out.println(n2);
+        System.out.println(n3);
+        System.out.println(n4);
+        System.out.println(n5);
+    }
+    public static void main(String args[]){
+        mine();
+    }
+    
+    
+}
